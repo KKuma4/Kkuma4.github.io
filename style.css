@@ -1,0 +1,63 @@
+body {
+  background-color:#deded5;
+  font-family: monospace;
+}
+.intro {
+  position: relative;
+  font-size: 30px;
+  padding: 100px 75px 50px 15px;
+}
+#heading {
+  text-align: center;
+}
+#intro-pic {
+  width: 25%;
+  padding: 1em 1em 1em 1em;
+  float: left;
+  z-index:1;
+}
+#intro-info {
+  margin-left: 5em;
+  position: relative;
+  padding: 3em 2em 2em 2em;
+}
+h1 {
+  text-align: center;
+  font-size: 60px;
+}
+p {
+  font-size: 25px;
+}
+.module {
+  padding: 10em 20em 10em 20em;
+  background-color: white;
+  margin: 5em 5em 5em 5em;
+}
+form {
+  font-size: 1.5em;
+}
+.scrambled, input, button {
+  font-family: monospace;
+  font-size: 2em;
+}
+.nav {
+  position: fixed;
+  background-color: #e64d43;
+  padding: 10px 20px 10px 20px;
+  margin-top: -10px;
+  margin-left: -10px;
+  z-index: 2;
+  overflow: hidden;
+  left:0;
+  right:0;
+}
+.nav a{
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 17px;
+}
+.module-image {
+  width: 30em; 
+}
